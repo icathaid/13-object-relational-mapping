@@ -31,16 +31,21 @@ changed a thing to check travis
 
 ##    Questions
 
-*     Do I need to use the npm debug module?  How?
-
 *     Why is model in italics for the last feature task?
 
+[]    I think the api is actually working but I'm not sure how to enter the object body into postman to test it
+
+[]    I added the code from the body-parser docs but I'm not really sure how to use or test it.  I'm not entirely sure what it's parsing.
+
+[]    how do i deploy to heroku?
+
+[]    how do i fix the travis thing?
 
 ###   Feature Tasks
 
-[]    Create an HTTP server using Express
+[x]    Create an HTTP server using Express
 
-[]    create a resource model of your choice that uses mongoose.Schema and mongoos.model
+[x]    create a resource model of your choice that uses mongoose.Schema and mongoos.model
 
 []    use the body-parser express middleware to parse the req body on POST and PUT routes
 
