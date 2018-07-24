@@ -31,8 +31,6 @@ changed a thing to check travis
 
 ##    Questions
 
-*     Why is model in italics for the last feature task?
-
 []    I think the api is actually working but I'm not sure how to enter the object body into postman to test it
 
 []    I added the code from the body-parser docs but I'm not really sure how to use or test it.  I'm not entirely sure what it's parsing.

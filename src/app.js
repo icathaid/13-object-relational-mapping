@@ -13,23 +13,22 @@ import errorHandler from './middleware/error.js';
 import notFound from './middleware/404.js';
 
 let app = express();
-let bodyParser = require('body-parser')
+// let bodyParser = require('body-parser');
 
 // App level middleware
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
-app.use(bodyParser);
-let bodyParser = require('body-parser');
-let jsonParser = bodyParser.json;
+// app.use(bodyParser);
+// let jsonParser = bodyParser.json;
 // Our API Routes
 app.use(router);
 
-app.post(/api/v1/model, jsonParser, function(req, res) {
-  if(!req.body){
-    return res.sendStatus(400);
-  }
-});
+// app.post('/api/v1/model', jsonParser, function(req, res) {
+//   if(!req.body){
+//     return res.sendStatus(400);
+//   }
+// });
 // Errors and 404's
 app.use(notFound);
 app.use(errorHandler);
